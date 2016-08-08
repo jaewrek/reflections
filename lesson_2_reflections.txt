@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+You need to use "git init" to initialzie the repository. Then you need to add commmits to it.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The repository are actual committed (saved) files. The working directory is simply the folder you've navigated into. The staging area allows you transition and control which files you want to be committed into the respository.
