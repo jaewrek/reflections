@@ -3,3 +3,18 @@ You need to use "git init" to initialzie the repository. Then you need to add co
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The repository are actual committed (saved) files. The working directory is simply the folder you've navigated into. The staging area allows you transition and control which files you want to be committed into the respository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can first use the different diff commands to compare different files, staging area, working directory, commits in repository.. Then you use the staging area to transition your file into the repository.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you want to create an experimental version of your program that branches off from the main one, while still keeping both variations active and editable.
+
+How do the diagrams help you visualize the branch structure?
+It helps you see for certain what is the parent of each branch and help prevent creating commits that will get lost because they are not in a labeled branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+You create a new commit that has two parents (from the latest commits of each branch that you merged). It is represented that way to accurately show the parents for the commit and the level of reachability you have now due to the merge.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+When it runs into merging overlaps it allows you to decide which parts of code/commits to keep in order to keep everything running the way you'd like.
